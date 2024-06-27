@@ -3,3 +3,31 @@ html {
     font-weight: 400;
     font-style: normal;
 }
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    width: 30%;
+    display: block;
+    font-size: 1.8rem;
+}
+
+.header-media,
+.header-nav {
+    font-size: 1.5rem;
+}
+
+.header-x,
+.header-youtube {
+    background-color: #333333;
+    color: white;
+    width: 20%;
+}
+
+.content {
+    width: 80%;
+}
