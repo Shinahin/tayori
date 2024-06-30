@@ -69,10 +69,10 @@ h1 {
 .content {
     width: 75%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 1.5rem;
     padding: 2rem;
+    flex-direction: column;
+    background-color: #bce2e8;
 }
 
 .hamburger {
@@ -122,4 +122,17 @@ h1 {
     .hamburger {
         display: block;
     }
+}
+
+#pro-icon {
+    border-top-left-radius: 40%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 53%;
+}
+
+.zilyougemannnaka {
+    display: flex;
+    align-items: center;
+    font-size: 2.75rem;
 }
