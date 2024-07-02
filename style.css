@@ -66,6 +66,10 @@ h1 {
     background-color: #FF0000;
 }
 
+.header-mas {
+    background-color: #f3969a;
+}
+
 .content {
     width: 75%;
     display: flex;
@@ -93,6 +97,10 @@ h1 {
     background: #333;
     border-radius: 3px;
     z-index: 1;
+}
+
+footer {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
