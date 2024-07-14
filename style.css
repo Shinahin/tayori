@@ -144,3 +144,31 @@ footer {
     align-items: center;
     font-size: 2.75rem;
 }
+
+.a {
+    color: blue;
+    /* リンクのテキストカラー */
+    text-decoration: underline;
+    /* 下線 */
+    cursor: pointer;
+    /* マウスカーソルがリンク上にあるときに指マークを表示 */
+}
+
+.a:visited {
+    color: purple;
+    /* 訪問済みリンクのテキストカラー */
+}
+
+.a:hover {
+    color: red;
+    /* ホバー時のリンクのテキストカラー */
+    text-decoration: underline;
+    /* 下線 */
+}
+
+.a:active {
+    color: red;
+    /* アクティブ時のリンクのテキストカラー */
+    text-decoration: underline;
+    /* 下線 */
+}
