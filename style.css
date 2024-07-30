@@ -110,6 +110,11 @@ footer {
     text-align: center;
 }
 
+.timeline {
+    height: 80%;
+    width: 50%;
+}
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -136,6 +141,10 @@ footer {
 
     .hamburger {
         display: block;
+    }
+
+    .timeline {
+        width: 100%;
     }
 }
 
@@ -182,9 +191,4 @@ footer {
 
 footer {
     font-size: 1.25em;
-}
-
-.timeline {
-    height: 80%;
-    width: 50%;
 }
