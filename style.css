@@ -74,9 +74,12 @@ h1 {
     width: 75%;
     display: flex;
     font-size: 1.5rem;
-    padding: 2rem;
     flex-direction: column;
     background-color: #bce2e8;
+}
+
+.content2 {
+    padding: 2rem;
 }
 
 .hamburger {
