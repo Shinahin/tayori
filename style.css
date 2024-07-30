@@ -179,3 +179,7 @@ footer {
     text-decoration: underline;
     /* 下線 */
 }
+
+footer {
+    font-size: 1.25em;
+}
