@@ -193,5 +193,13 @@ footer {
 }
 .wikidesu{
     color: red;
-    font-size:30rem:
+    letter-spacing:0.3em;
+    font-size:30rem;
+    transition:all 3s ease-out;
+}
+
+.wikidesu:hover{
+    color:blue:
+    letter-spacing:0.5em;
+    font-size:50em;
 }
